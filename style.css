@@ -1,0 +1,182 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.header {
+  height: 450px;
+  background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  color: blue;
+  font-size: 30px;
+  position: relative;
+  left: -290px;
+}
+.btn {
+  text-decoration: none;
+  background-color: #4b62f2;
+  color: #fff;
+  padding: 7px 19px;
+  border-radius: 10px;
+  position: absolute;
+  right: 220px;
+  top: 40px;
+}
+.btn:hover {
+  background-color: #c02271;
+  transition: 0.5s;
+}
+.cool {
+  position: relative;
+  font-size: 40px;
+  top: 100px;
+}
+.btn2 {
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  padding: 10px 20px;
+  background-color: #582872;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #8621de;
+  transition: 0.5s;
+}
+/* frist section*/
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.frist_section {
+  margin-top: 40px;
+  height: 200px;
+  width: 890px;
+background-color: rgb(253, 254, 255);
+border-radius: 10px;
+}
+.container {
+  text-align: left;
+}
+.see{
+margin-left: 20px;
+}
+.p1{
+margin-left: 20px;
+}
+.btn3{
+margin-left: 20px;
+}
+.img1{
+    height: 190px ;
+    width: 200px;
+    position: relative;
+    top: -126px;
+    left: 600px;
+    border-radius: 10px ;
+}
+.btn3{
+    position: absolute;
+    left: 318px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+color: #fff;
+background-color: rgb(31, 31, 219);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #780BB8;
+    transition: 0.5s;
+
+}
+/* frist section end*/
+
+
+                 /*second section start*/
+.sec{
+display: flex;
+ justify-content: center;
+ 
+}
+.second_section{
+ 
+border-radius: 10px;
+margin-top: 40px;
+  height: 210px;
+  width: 890px;
+ background-color:#DEEDFF;
+
+}
+
+.how{
+text-align: center;
+margin-top: 24px;
+font-weight: bold;
+}
+.marking{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    position: relative;
+    top: 30px;
+}
+.marking li {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(11, 11, 204);
+
+}
+.marking2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    position: relative;
+    top: 10px;
+}
+
+/*second section end*/
+
+
+                /*third section start*/
+.thr{
+border: 2px solid;
+display: flex;
+ justify-content: center;
+}
+.desi{
+border: 2px solid #4b62f2;
+margin-top: 40px;
+  height: 210px;
+  width: 890px;
+}
+.img3{
+  
+}
+.card{
+  border: 2px solid red;
+  width: 200px;
+  
+}
+.img4{
+
+}
+/*third section end*/
