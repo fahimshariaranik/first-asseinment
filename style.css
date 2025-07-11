@@ -287,27 +287,97 @@ cursor: pointer;
  }
 
 .main_five{
-  border: 2px solid;
+  border-radius: 10px;
   position: absolute;
   margin-top: 600px;
   left: 300px;
   height: 360px;
-  width: 890px;
-  display: flex;
-  background-color: #f8f6f6;
+  width: 900px;
+display: inline-block;
+  background-color: #f8f6f6ea;
 
 }
 .fiveh1{
   font-size: 50px;
 position: relative;
 top: 80px;
+margin-left: 10px;
 }
 .hello{
-  
+  display: flex;
 }
-.five_form label{
+.five_form{
+position: absolute;
+left: 450px;
+top: 30px;
+
+}
+.five_form input[type="text"],textarea{
+padding: 10px 15px;
+height: 20px;
+width: 100%;
+display: block;
+font-size: 16px;
+border-radius: 7px;
+border: none;
+background-color: #fff;
 
 
+}
+.btn6{
+  color: #fff;
+  padding: 7px 28px;
+  background-color: #2076e6;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px; 
+  margin-top: 20px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.btn6:hover{
+  background-color: #942EE1;
+  transition: 0.5s;
 }
  /*five section end*/
 
+
+
+          /*six section start*/
+.fot_last{
+display: flex;
+position: relative;
+top: 1000px;
+justify-content: center;
+align-items: center;
+height: 350px;
+background-color: #f9f8f8;
+border-top: 2px solid #ddd;
+
+}
+.last{
+text-align: center;
+}
+.last h1{
+  font-weight: bold;
+  font-size: 50px;
+  color: #066aee;
+}
+.last ul{
+  list-style: none;
+
+}
+.last li{
+  display: inline-block;
+}
+.last li a{
+  text-decoration: none;
+  padding: 10px 17px;
+  color: #0a0a0a;
+  
+}
+.last li a:hover{
+  border-bottom: 2px solid #000;
+
+}
+/*six section end*/
