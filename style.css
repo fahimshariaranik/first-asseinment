@@ -38,6 +38,7 @@
   position: relative;
   font-size: 40px;
   top: 100px;
+
 }
 .btn2 {
   position: absolute;
@@ -129,6 +130,7 @@ margin-top: 40px;
 text-align: center;
 margin-top: 24px;
 font-weight: bold;
+font-size: 26px;
 }
 .marking{
     list-style: none;
@@ -323,6 +325,10 @@ border: none;
 background-color: #fff;
 
 
+}
+.five_form textarea{
+  max-width: 400px;
+  max-height: 100px;
 }
 .btn6{
   color: #fff;
