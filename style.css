@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+ 
 }
 .header {
   height: 450px;
@@ -84,7 +85,7 @@ margin-left: 20px;
     width: 200px;
     position: relative;
     top: -126px;
-    left: 600px;
+    left: 690px;
     border-radius: 10px ;
 }
 .btn3{
@@ -158,25 +159,76 @@ font-weight: bold;
 
                 /*third section start*/
 .thr{
-border: 2px solid;
+  
 display: flex;
  justify-content: center;
+padding: 8px 10px;
 }
 .desi{
-border: 2px solid #4b62f2;
+
 margin-top: 40px;
-  height: 210px;
+  height: 360px;
   width: 890px;
-}
-.img3{
-  
-}
-.card{
-  border: 2px solid red;
-  width: 200px;
-  
-}
-.img4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
 
 }
+
+.imgposition{
+  display: flex;
+  gap: 1px;
+}
+
+.what{
+position: absolute;
+left: 40%;
+  font-size: 36px;
+  
+}
+.img3{
+  margin-left: 10px;
+  margin-top: 17px;
+}
+.card{
+
+  width: 270px;
+  height: 250px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+
+}
+.card h2,p{
+  margin-left: 10px;
+}
+.img4{
+border-radius: 50px;
+margin-left: 10px;
+}
+.desi input{
+position:absolute;
+outline: none;
+border: none;
+padding: 5px;
+background: none;
+
+}
+.desi label{
+position:relative;
+
+
+
+}
+
 /*third section end*/
+
+                    /*fourth section start*/  
+
+
+
+                    
+
+ /*fourth section start*/
+
+
